@@ -1,0 +1,39 @@
+PS C:\git_challenge> git init
+Initialized empty Git repository in C:/git_challenge/.git/
+PS C:\git_challenge> git add .
+PS C:\git_challenge> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) a2e903c] 譛蛻昴・繧ｳ繝溘ャ繝
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\git_challenge> git add .
+PS C:\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\git_challenge> git commit -m "日本語訳を追記"
+[main 42f7bfb] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\git_challenge> git log
+commit 42f7bfb42c04b6020596e32664eba57193191510 (HEAD -> main)
+Author: Your GitHub Username <your_email@example.com>
+Date:   Sat Mar 16 11:42:49 2024 +0900
+
+    日本語訳を追記
+
+commit a2e903cd4b7224c5dd590e02578de2bfb8e5fa7a
+Author: Your GitHub Username <your_email@example.com>
+Date:   Sat Mar 16 11:41:27 2024 +0900
+
+    最初のコミット
+PS C:\git_challenge>   
